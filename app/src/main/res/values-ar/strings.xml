@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home -->
+    <string name="tab_documents">المستندات</string>
+    <string name="tab_folders">المجلدات</string>
+    <string name="tab_favorites">المفضلة</string>
+    <string name="search_hint">ابحث في المستندات</string>
+    <string name="clear">مسح</string>
+    <string name="recent">الأخيرة</string>
+    <string name="all_documents">جميع المستندات</string>
+    <string name="sort_by">ترتيب حسب</string>
+    <string name="sort_date">التاريخ</string>
+    <string name="sort_name">الاسم</string>
+    <string name="import_from_gallery">استيراد من المعرض</string>
+    <string name="settings">الإعدادات</string>
+    <string name="back">رجوع</string>
+    <string name="more_options">خيارات إضافية</string>
+
+    <!-- Empty states -->
+    <string name="empty_documents_title">لا توجد مستندات بعد</string>
+    <string name="empty_documents_body">استورد صوراً من المعرض لإنشاء أول مستند لك.</string>
+    <string name="empty_folders_title">لا توجد مجلدات بعد</string>
+    <string name="empty_folders_body">أنشئ مجلدات لتنظيم مستنداتك.</string>
+    <string name="empty_favorites_title">لا توجد مفضلات بعد</string>
+    <string name="empty_favorites_body">اضغط على النجمة في أي مستند لإضافته هنا.</string>
+    <string name="no_results_title">لا توجد نتائج</string>
+    <string name="no_results_body">لا يوجد مستند يطابق بحثك.</string>
+    <string name="empty_folder_title">هذا المجلد فارغ</string>
+    <string name="empty_folder_body">استورد صوراً إلى هنا أو انقل مستندات إلى هذا المجلد.</string>
+
+    <!-- Actions -->
+    <string name="new_folder">مجلد جديد</string>
+    <string name="folder_name">اسم المجلد</string>
+    <string name="document_name">اسم المستند</string>
+    <string name="create">إنشاء</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="rename">إعادة تسمية</string>
+    <string name="move">نقل إلى مجلد</string>
+    <string name="delete">حذف</string>
+    <string name="move_to">نقل إلى</string>
+    <string name="no_folder">بدون مجلد</string>
+    <string name="no_folders_hint">لا توجد مجلدات بعد. أنشئ مجلداً من تبويب المجلدات.</string>
+    <string name="add_favorite">إضافة إلى المفضلة</string>
+    <string name="remove_favorite">إزالة من المفضلة</string>
+    <string name="delete_document_title">حذف المستند؟</string>
+    <string name="delete_document_message">سيتم حذف \"%1$s\" وجميع صفحاته نهائياً من هذا الجهاز.</string>
+    <string name="delete_folder_title">حذف المجلد؟</string>
+    <string name="delete_folder_message">سيتم حذف المجلد \"%1$s\". المستندات داخله ستبقى وتُنقل خارج المجلد.</string>
+
+    <!-- Import -->
+    <string name="importing">جارٍ استيراد الصور…</string>
+    <string name="import_failed">تعذّر استيراد الصور المحددة.</string>
+    <string name="import_partial">تم استيراد %1$d صورة. تعذّرت قراءة %2$d.</string>
+    <string name="default_document_name">مسح %1$s</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="no_pages">لا توجد صفحات في هذا المستند.</string>
+
+    <!-- Settings -->
+    <string name="appearance">المظهر</string>
+    <string name="theme_system">حسب النظام</string>
+    <string name="theme_light">نهاري</string>
+    <string name="theme_dark">ليلي</string>
+    <string name="language">اللغة</string>
+    <string name="language_system">حسب النظام</string>
+    <string name="privacy">الخصوصية</string>
+    <string name="privacy_body">يعمل Dreams Scanner بالكامل دون إنترنت. تُحفظ مستنداتك على هذا الجهاز فقط، ولا يُرفع شيء إلى أي خادم، ولا تُجمع أي بيانات، ولا توجد إعلانات ولا اشتراكات ولا قيود ولا علامات مائية.</string>
+    <string name="about">حول التطبيق</string>
+    <string name="version_format">الإصدار %1$s</string>
+
+    <plurals name="pages_count">
+        <item quantity="zero">لا صفحات</item>
+        <item quantity="one">صفحة واحدة</item>
+        <item quantity="two">صفحتان</item>
+        <item quantity="few">%d صفحات</item>
+        <item quantity="many">%d صفحة</item>
+        <item quantity="other">%d صفحة</item>
+    </plurals>
+    <plurals name="documents_count">
+        <item quantity="zero">لا مستندات</item>
+        <item quantity="one">مستند واحد</item>
+        <item quantity="two">مستندان</item>
+        <item quantity="few">%d مستندات</item>
+        <item quantity="many">%d مستنداً</item>
+        <item quantity="other">%d مستند</item>
+    </plurals>
+</resources>
